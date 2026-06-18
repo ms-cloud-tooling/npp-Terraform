@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Languages>
+        <Language name="Terraform" ext="tf tfvars hcl" commentLine="#" commentStart="/*" commentEnd="*/">
+            <Keywords name="instre1">terraform provider resource data module variable output locals moved import removed check</Keywords>
+            <Keywords name="instre2">string number bool list map set object tuple any optional dynamic</Keywords>
+            <Keywords name="type1">true false null</Keywords>
+            <Keywords name="type2">count for_each depends_on lifecycle provisioner connection provider source version</Keywords>
+        </Language>
+    </Languages>
+    <LexerStyles>
+        <LexerType name="Terraform" desc="Terraform/HCL" ext="tf tfvars hcl">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="COMMENT LINE" styleID="1" fgColor="608B4E" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT BLOCK" styleID="2" fgColor="608B4E" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="STRING" styleID="3" fgColor="CE9178" bgColor="FFFFFF" />
+            <WordsStyle name="HEREDOC" styleID="4" fgColor="CE9178" bgColor="FFFFFF" />
+            <WordsStyle name="NUMBER" styleID="5" fgColor="B5CEA8" bgColor="FFFFFF" />
+            <WordsStyle name="KEYWORD" styleID="6" fgColor="569CD6" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="ATTRIBUTE" styleID="7" fgColor="9CDCFE" bgColor="FFFFFF" />
+            <WordsStyle name="IDENTIFIER" styleID="8" fgColor="DCDCAA" bgColor="FFFFFF" />
+            <WordsStyle name="OPERATOR" styleID="9" fgColor="D4D4D4" bgColor="FFFFFF" />
+            <WordsStyle name="BRACKET" styleID="10" fgColor="FFD700" bgColor="FFFFFF" />
+            <WordsStyle name="TYPE" styleID="11" fgColor="4EC9B0" bgColor="FFFFFF" />
+            <WordsStyle name="BUILTIN FUNCTION" styleID="12" fgColor="DCDCAA" bgColor="FFFFFF" />
+            <WordsStyle name="INTERPOLATION" styleID="13" fgColor="D7BA7D" bgColor="FFFFFF" />
+            <WordsStyle name="VARIABLE REF" styleID="14" fgColor="4FC1FF" bgColor="FFFFFF" />
+            <WordsStyle name="BOOL" styleID="15" fgColor="569CD6" bgColor="FFFFFF" />
+            <WordsStyle name="NULL" styleID="16" fgColor="569CD6" bgColor="FFFFFF" />
+            <WordsStyle name="BLOCK TYPE" styleID="17" fgColor="C586C0" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="META ARGUMENT" styleID="18" fgColor="569CD6" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="PROVISIONER" styleID="19" fgColor="C586C0" bgColor="FFFFFF" />
+            <WordsStyle name="ESCAPE CHAR" styleID="20" fgColor="D7BA7D" bgColor="FFFFFF" />
+        </LexerType>
+    </LexerStyles>
+</NotepadPlus>
